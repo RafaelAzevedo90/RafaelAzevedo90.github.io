@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@font-face {
+  font-family:idroid;
+  src: url("idroid.otf") format("opentype");
+  font-weight: normal;
+}
+*{
+  margin:0px;
+  padding:0px;
+}
+:root{
+--cor01:#c5ebd6;
+--cor02:#83e1ad;
+--cor03:#3ddc84;
+--cor04:#2fa866;
+--cor05:#063d1e;
+--fonte0: arial, Helvetica, sans-serif;
+--fonte1: 'Shadows Into Light', cursive;
+--fonte2: 'idroid', sans-serif;
+}
+body{
+  background-color: var(--cor01);
+  font-family: var(--fonte0);
+}
+header{
+  background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
+  min-height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+header  h1{
+  font-family: var(--fonte1);
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px gray;
+}
+header  p{
+  color:white;
+  font-family: var(--fonte0);
+  font-weight: 1.8em;
+  padding-bottom: 5px;
+}
+nav{
+  background-color: var(--cor05);
+  color:white;
+}
+nav a{
+  text-decoration: none;
+  color:white;
+  transition-duration: 0.5s;
+}
+nav a:rover{
+  background-color: var(--cor01);
+  color: var(--cor05);
+}
+main{
+  min-width: 300px;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+main  p{
+  margin: 15px 0px;
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 1em;
+}
+main strong{
+  font-weight: bold;
+}
+main img{
+  width: 100%;
+}
+.pq{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.video{
+  background-color: var(--cor05);
+  margin: 0px -21px 30px -20px;
+  padding-left: 10px;
+  position: relative;
+  padding-bottom: 59%;
+}
+.video > iframe{
+  position: absolute;
+  top:5%;
+  left:5%;
+  width: 90%;
+  height: 90%;
+}
+main h1{
+  font-family: var(--fonte2);
+  background-image: linear-gradient(to right, var(--cor02), transparent);
+  padding: 5px;
+}
+main  h2{
+  font-family: var(--fonte2);
+  background-image: linear-gradient(to right, var(--cor02), transparent);
+  padding:5px;
+}
+main a{
+  text-decoration: none;
+  background-color: var(--cor01);
+  color:black;
+}
+aside{
+  background-color: var(--cor01);
+  border-radius: 5px;
+  padding: 5px;
+}
+aside ul{
+  list-style-position: inside;
+  columns: 2;
+}
+aside h3{
+  background-color: var(--cor05);
+  color: white;
+  padding: 3px;
+  margin: -5px -5px 0px -5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+footer{
+  background-color: var(--cor05);
+  color:white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 2px;
+}
